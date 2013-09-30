@@ -1,0 +1,7 @@
+TO-DO
+
+1. config para definicoes da app:
+1.1 - por ex: app para API.
+1.2 - ou small website.
+
+Se for 1.1 nao faz carregamento de JS de frontend: twbootstrap, jquery, twig.
