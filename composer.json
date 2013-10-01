@@ -3,12 +3,13 @@
     "description": "Radiant Microframework",
     "require": {
         "php": ">=5.3.0",
-        "silex/silex": "1.*",
+        "silex/silex": "dev-master",
         "aws/aws-sdk-php": "2.*",
 	"components/jquery": "dev-master",
 	"twitter/bootstrap": "dev-master",
 	"phpunit/phpunit": "3.8.*@dev",
-        "twig/twig": "dev-new-operators"
+        "twig/twig": ">=1.8,<2.0-dev",
+        "symfony/console": "2.4.*@dev"
     },
     "minimum-stability": "dev"
 }

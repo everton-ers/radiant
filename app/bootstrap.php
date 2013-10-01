@@ -1,6 +1,7 @@
 <?php
 
 $loader = require __DIR__.'/../vendor/autoload.php';
+
 $loader->add('App', __DIR__.'/../app');
 
 
@@ -20,7 +21,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 ## with view
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
   'twig.path' => __DIR__.'/../views',
-  'twig.class_path' => __DIR__.'/vendor/twig/twig/lib',
+  'twig.class_path' => __DIR__.'/../vendor/twig/twig/lib',
 ));
 
 
@@ -38,5 +39,3 @@ $app->error(function (\Exception $e) use ($app) {
         'message' => $e,
     ));
 });
-
-return $app;

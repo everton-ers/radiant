@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+//namespace App;
 
 require_once __DIR__.'/bootstrap.php';
 
@@ -27,6 +27,8 @@ $app->get('/', function() use($app) {
   return $app['twig']->render('index.twig', array(
     'path' => 'home',
   ));
+      // retorno em json
+    //return $app->json($data=array('index'=>'Hello World'), $status=200);
 });
 
 $app->get('/{path}', function($path) use($app) {
@@ -35,20 +37,6 @@ $app->get('/{path}', function($path) use($app) {
   ));
 });
 
-
 //var_dump('app',$app); exit;
-
-//actions
-$app->get('/', function () use ($app) {
-
-    // retorno em json
-    return $app->json($data=array('index'=>'Hello World'), $status=200);
-
-    //retorno em forma de view
-    //return $app['twig']->render('index.twig');
-    
-
-})
-->bind('homepage');
 
 return $app;
