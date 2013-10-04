@@ -4,7 +4,6 @@
 
 require_once __DIR__.'/bootstrap.php';
 
-
 $app->error(function (\Exception $e) use ($app) {
     if ($e instanceof NotFoundHttpException) {
         return $app['twig']->render('error.twig', array(
@@ -21,21 +20,31 @@ $app->error(function (\Exception $e) use ($app) {
 });
 
 
-# Routes
+# Routes 
 
+#View
 $app->get('/', function() use($app) {
   return $app['twig']->render('index.twig', array(
     'path' => 'home',
   ));
-      // retorno em json
-    //return $app->json($data=array('index'=>'Hello World'), $status=200);
 });
 
+
+#REST
+$app->get('/rest', function() use($app) {
+     // retorno em json
+    return $app->json($data=array('start'=>'This is my world!',
+                                  'books'=> array('4hWW','JS Patterns','NoSQL Essentials')
+                                 ), $status=200);
+});
+
+#view sample
 $app->get('/{path}', function($path) use($app) {
   return $app['twig']->render('index.twig', array(
     'path' => $path,
   ));
 });
+
 
 //var_dump('app',$app); exit;
 

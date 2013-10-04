@@ -1,22 +1,16 @@
 ===========================
-Radiant Microframework
+Radiant micro-framework
 ===========================
-This framework help you create small websites and APIs for yours mobile apps.
+The micro-framework based on Silex, with support for AWS-SDK.
 
+That help you develope small websites and APIs for yours mobile apps.
 ====================
-Focus on this project:
+Goals for this project:
 ====================
-1. Create APIs support mobile apps, hosted on AWS.
-2. Create small websites with best SEM and SEO.
-3. Support for Node.js.
-
-
-=====================
-Symfony Console
-http://symfony.com/doc/master/components/console/introduction.html
-=====================
-
+1. Create APIs supported by mobile apps, hosted on AWS.
+2. Create small websites with the best SEM and SEO.
+3. ...
 =====================
 Supported by:
 =====================
-www.tconibo.com
+tconibo.com

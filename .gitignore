@@ -1,4 +1,5 @@
+components
 vendor
 tests/_reports
-composer.loc
+composer.lock
 nbproject

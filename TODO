@@ -1,12 +1,14 @@
-TO-DO/A-Fazer
-
+TO-DO (Fazer)
+mfr
 1. config para definicoes da app:
-   1.1 - por ex: app para API.
-   1.2 - ou small website.
-2. configurar e fazer testes
+   1.1 - habilita para produzir API: nao carrega arquivos necessarios para 1.2 (ex: js, css, etc)
+   1.2 - habilita para produzir small website.
+2. mfr extender Silex e /app deve usar classes do mfr.
+3. preparar para SEO: sitemaps, robots.txt, html5 tags, meta. integracao com redes sociais, GAnalitycs.
+4. configurar phpUnit e criar testes
+5. configurar Travis
+6. console deve ser capaz de trabalhar com /app e tambem e /tests
+7. Adicionar divisao de ambientes no Config, ex: SF profiler deve rodar somente em DEV
 
-3. configurar travis
 
-4. preparar para SEO
 
-Se for 1.1 nao faz carregamento de JS de frontend: twbootstrap, jquery, twig.
