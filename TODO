@@ -1,5 +1,8 @@
 TO-DO (Fazer)
-mfr
+
+Ver https://github.com/silexphp/Silex-Skeleton/
+
+Php microframework Radiant
 1. config para definicoes da app:
    1.1 - habilita para produzir API: nao carrega arquivos necessarios para 1.2 (ex: js, css, etc)
    1.2 - habilita para produzir small website.

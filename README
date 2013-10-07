@@ -1,15 +1,27 @@
 ===========================
-Radiant micro-framework
+Radiant
 ===========================
 The micro-framework based on Silex, with support for AWS-SDK.
+That help you develope small responsive websites and APIs for yours mobile apps.
 
-That help you develope small websites and APIs for yours mobile apps.
 ====================
 Goals for this project:
 ====================
 1. Create APIs supported by mobile apps, hosted on AWS.
 2. Create small websites with the best SEM and SEO.
-3. ...
+3. More ...
+
+=====================
+Install
+=====================
+#> php composer.phar install
+
+=====================
+Radiant example
+=====================
+
+Open http://localhost/app/web/index.php
+
 =====================
 Supported by:
 =====================
